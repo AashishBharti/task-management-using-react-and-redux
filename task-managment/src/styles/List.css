@@ -1,0 +1,71 @@
+.Board {
+  height: 92%;
+  display: flex;
+  overflow-x: auto;
+}
+
+.Add-List {
+  background-color: rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  cursor: pointer;
+  color: #141010;
+  min-height: 32px;
+  padding: 5px 8px;
+  transition: background-color 85ms ease-in, opacity 40ms ease-in,
+    border-color 85ms ease-in;
+  flex-shrink: 0;
+  margin: 10px;
+}
+
+.Add-List:hover {
+  background-color: rgba(0, 0, 0, 0.24);
+}
+
+.Add-List ion-icon {
+  margin-right: 1px;
+}
+
+.List {
+  background: #582f5f42;
+  flex-shrink: 0;
+  width: 272px;
+  height: fit-content;
+  margin: 10px;
+  margin-right: 0;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+
+.List-Title {
+  cursor: pointer;
+  padding: 10px;
+  overflow-wrap: break-word;
+}
+
+.Toggle-Add-Card {
+  cursor: pointer;
+  padding: 10px;
+  color: #070c0b;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  align-items: center;
+}
+
+.Toggle-Add-Card:hover {
+  background-color: rgba(9, 45, 66, 0.13);
+  color: #17394d;
+  text-decoration: underline;
+}
+
+.Toggle-Add-Card ion-icon {
+  margin-right: 2px;
+}
+
+.List-Little {
+  background-color: #efefef; /* Adjust color as needed */
+  border-radius: 10px;
+  flex-shrink: 0;
+  width: 150px; /* Adjust width as needed */
+  height: fit-content;
+  margin: 10px;
+}
